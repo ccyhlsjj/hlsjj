@@ -144,10 +144,8 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 .danpin .main .mingxing .pinpai a{font-size: 14px;color:#333;}
 .danpin .main .mingxing .youhui{width: 234px;height: 12px;line-height: 12px;margin:15px 0;font-size: 12px;color: rgb(176,176,176);text-align: center;}
 .danpin .main .mingxing .jiage{font-size: 20px;text-align: center;color:#ff6709;position: absolute;left: 78px; bottom: 10px;}
-.danpin .main .mingxing .piao{width: 100%;height: 60px;font-size:12px;background:#ff6709;opacity: 0.8; position: absolute;bottom: -60px;}
-.danpin .main .mingxing .piao a{color:#fff;text-align: center;}
-.danpin .main .mingxing .piao span{display: block;margin-top:10px;}
-.danpin .main .mingxing:hover .piao{ transform: translateY(-60px);transition: transform .5s;}
+.danpin .main .mingxing .piao{width: 100%;height: 60px;background:#ff6709;opacity: 0.8; position: absolute;bottom: -60px;text-align: center;color:#fff;line-height: 60px;font-size: 20px;}
+.danpin .main .mingxing:hover .piao{transform: translateY(-60px);transition: transform .5s;}
 
 /*peijian*/
 .peijian{background: rgb(245,245,245);}
@@ -189,12 +187,12 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 .jieshao .left .small .mask {width: 175px;height: 175px;background: rgba(255, 255, 0, 0.4);position: absolute;top: 0px;left: 0px;cursor: move;display: none;}
 
 
-.jieshao .right{width:620px;background: rgb(248,248,248);height: 600px;}
-.jieshao .right .jianjie{font-size: 14px;color: rgb(176,176,176);line-height: 20px;}
+.jieshao .right{width:620px;height: 600px;margin-top: 50px;}
+.jieshao .right .jianjie{font-size: 14px;line-height: 20px;}
 .jieshao .right .jiage{font-size: 18px;color:#ff6700;font-weight: bold;}
 .jieshao .right .xzbb{height: 58px;line-height:58px;}
-.jieshao .right .xzbb .banben{height: 58px;line-height: 58px;width: 278px;cursor:pointer;margin-right: 5px;border:1px solid #bbb;}
-.jieshao .right .xzbb .banben a{display:block;font-size: 18px;color:#000;padding:0 10px;}
+.jieshao .right .xzbb .banben{height: 58px;line-height: 58px;width: 478px;cursor:pointer;margin-right: 5px;border:1px solid #bbb;}
+.jieshao .right .xzbb .banben a{display:inline-block;font-size: 18px;color:#000;padding:0 10px;}
 .jieshao .right .xzbb .banben a span{display: inline-block;margin-right: 10px;}
 .jieshao .right .xzbb .banben a:hover{color:#ff6700;}
 .jieshao .right .xzbb .banben:hover{border:1px solid #ff6700;}
@@ -204,14 +202,18 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 /*是否下单*/
 .xiadan{height: 50px;line-height: 50px;}
 .xiadan .jrgwc{height: 50px;width: 200px;border:none;background:#ff6700;color:#fff;font-size: 18px;font-weight: bold;cursor:pointer;margin-right: 50px;}
+.xiadan #choose{display: inline-block;text-align: center; height: 50px;width: 200px;border:none;background:#ff6700;color:#fff;font-size: 18px;font-weight: bold;cursor:pointer;margin-right: 50px;}
+.xiadan #shop{display: inline-block;text-align: center; height: 50px;width: 200px;border:none;background:#ff6700;color:#fff;font-size: 18px;font-weight: bold;cursor:pointer;margin-right: 50px;}
 .xiadan .jrgwc:hover{border:1px solid #fff;}
 /*我的购物车*/
+.banner_x{position: relative;}
 .banner_x .wdgwc{height: 100px;line-height: 100px;font-weight:bold;font-size: 24px;}
 .banner_x .wxts{height: 90px;line-height: 105px;font-size: 12px;color:#777;}
 .banner_x .dlzc{height: 100px;line-height: 100px;}
 .banner_x .dlzc ul li{float: left;font-size: 12px;}
 .banner_x .dlzc ul li a{display:block;padding:0 8px;font-size: 12px;font-family: Times New Roman;color: #777;}
 .banner_x .dlzc ul li a:hover{color:#ff6700; }
+.banner_x .back{width: 100px;height: 20px;position: absolute;right: 10px;bottom: 5px;font-size: 12px;text-align: center;line-height: 20px;border-radius: 10px;color: black;}
 .xiantiao{width: 100%;height: 2px;background:#ff6700; }
 /*购物车详单*/
 .gwcxqbj{width: 100%;background: rgb(245,245,245);padding-bottom: 20px;}
@@ -223,17 +225,18 @@ header .top .right .gouwuche:hover{color:#000;background: #666;}
 .gwcxqbj .gwcxd .top2 .sub_top:nth-of-type(4){margin-left: 60px;}
 .gwcxqbj .gwcxd .top2 .sub_top:nth-of-type(5){margin-left: 60px;}
 .gwcxqbj .gwcxd .top2 .sub_top .quanxuan{width:18px;height:18px;border:1px solid #ccc;background: none;}
-.gwcxqbj .gwcxd .content2{width:1226px;height: 120px;border-top: 1px solid #ccc;}
-.gwcxqbj .gwcxd .content2 .sub_content{width:50px;height: 120px;line-height:120px;margin-right: 0px;}
+.gwcxqbj .gwcxd .content2{width:1226px;height: 120px;border-top: 1px solid #ccc;position: relative;}
+.gwcxqbj .gwcxd .content2 .sub_content{line-height:120px;margin-right: 0px;}
 .gwcxqbj .gwcxd .sub_content .quanxuan{width:18px;height:18px;border:1px solid #ccc;background: none;}
-.gwcxqbj .gwcxd .content2 .sub_content img{vertical-align: middle;}
+.gwcxqbj .gwcxd .content2 .sub_content img{width: 100px;height: 100px; vertical-align: middle;}
+.gwcxqbj .gwcxd .content2 #title{font-size: 12px;line-height: 20px;margin-top: 40px;}
 .gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(1){margin-left: 30px;} 
-.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(2){margin-left: 35px;}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(2){margin-left: 25px;}
 .gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(3){margin-left: 55px;width: 330px;}
 .gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(4){margin-left: 55px;}
-.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(5){margin-left: 115px;}
-.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(6){margin-left: 115px;color:#ff6700;}
-.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(7){margin-left: 145px;font-size: 25px;}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(5){position: absolute;right: 380px;}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(6){position: absolute;right: 240px;olor:#ff6700;}
+.gwcxqbj .gwcxd .content2 .sub_content:nth-of-type(7){position: absolute;right: 80px; font-size: 25px;}
 .gwcxqbj .gwcxd .content2 .sub_content .shuliang{width: 70px;height: 35px;border:2px solid #ccc;text-align: center;font-size:16px;color:#ff6700;}
 .gwcxqbj .gwcxd .content2 .sub_content a{display: block;width: 20px;height: 20px;border-radius: 10px;color:#000;}
 .gwcxqbj .gwcxd .content2 .sub_content a:hover{color:#ff6700;}

@@ -33,10 +33,14 @@ input:focus{border: 2px solid orange;}
 
 .login_main{padding:20px 0;}
 .login_main .username{font:16px Times New Roman;height: 40px;line-height: 40px;margin:35px 0;}
+.login_main .password{font:16px Times New Roman;height: 40px;line-height: 40px;margin:35px 0;}
+.login_main .yanzheng{font:16px Times New Roman;height: 40px;line-height: 40px;margin:35px 0;}
 .login_main .username .shurukuang{width: 220px;height: 30px;border:1px solid #ccc;padding:5px 10px; }
-.login_main .username .yanzhengma{width: 100px;height: 30px;border:1px solid #ccc;padding:5px 10px; }
+.login_main .password .shurukuang{width: 220px;height: 30px;border:1px solid #ccc;padding:5px 10px; }
+.login_main .yanzheng .yanzhengma{width: 100px;height: 30px;border:1px solid #ccc;padding:5px 10px; }
 .login_main .username .shurukuang:focus{border: 1px solid blue;background: #F0FFFF;}
-.login_main .username .yanzhengma:focus{border: 1px solid blue;background: #F0FFFF;}
+.login_main .password .shurukuang:focus{border: 1px solid blue;background: #F0FFFF;}
+.login_main .yanzheng .yanzhengma:focus{border: 1px solid blue;background: #F0FFFF;}
 .login_main .username .right{margin-left: 20px;}
 
 /*设置按钮样式*/
